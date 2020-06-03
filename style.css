@@ -1,0 +1,473 @@
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 50px;
+  margin: auto;
+}
+
+header nav img {
+  max-width: 75px;
+}
+
+header nav ul {
+  display: flex;
+  width: 45%;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+header nav ul a {
+  color: #000;
+}
+
+header nav ul .contact-box {
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  background-color: #5960F6;
+}
+
+header nav ul .contact-box a {
+  color: #fff;
+}
+
+.top-title {
+  background: url(../img/fixate-illustration-of-objects-header-home.png) no-repeat center;
+  background-size: cover;
+  height: 680px;
+}
+
+.top-title .top-title-text {
+  text-align: center;
+}
+
+.top-title .top-title-text h1 {
+  font-size: 63px;
+  font-weight: bold;
+  padding-top: 170px;
+  line-height: 1.2;
+}
+
+.top-title .top-title-text .sub-title-text {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 30px 0;
+}
+
+.top-title .top-title-text .top-title-btn {
+  margin-top: 10px;
+}
+
+.top-title .top-title-text .top-title-btn a {
+  border-radius: 30px;
+  background: #5960F6;
+  padding: 21px 30px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.about-flex {
+  display: flex;
+  height: 300px;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-flex h2 {
+  display: block;
+  font-size: 35px;
+  font-weight: bold;
+  width: 33%;
+  padding-bottom: 60px;
+}
+
+.about-flex .about-block {
+  display: block;
+  width: 90%;
+}
+
+.about-flex .about-block .about-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #777777;
+}
+
+.about-flex .about-block .about-link {
+  margin-top: 15px;
+}
+
+.about-flex .about-block .about-link a {
+  font-size: 15px;
+  font-weight: normal;
+  border-bottom: solid 1px;
+  padding-bottom: 3px;
+}
+
+.healthy-app {
+  background: url(../img/linework-background-fixate.png) no-repeat;
+  background-size: cover;
+  height: 772px;
+  position: relative;
+  padding-top: 5%;
+}
+
+.healthy-app .healthy-block {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.healthy-app .healthy-block .healthy-flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.healthy-app .healthy-block .healthy-flex-end .healthy-white-box {
+  display: block;
+  width: 50%;
+  height: 400px;
+  background: #fff;
+  position: absolute;
+  right: 44%;
+  top: 24%;
+  box-sizing: border-box;
+  padding: 70px;
+}
+
+.healthy-app .healthy-block .healthy-flex-end .healthy-white-box .healthy-text-bold {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.healthy-app .healthy-block .healthy-flex-end .healthy-white-box .healthy-text-normal {
+  padding: 15px 0;
+}
+
+.healthy-app .healthy-block .healthy-flex-end .healthy-white-box .healthy-page-link a {
+  font-size: 15px;
+  border-bottom: solid 1px;
+  padding-bottom: 3px;
+}
+
+.healthy-app .healthy-block .healthy-flex-end img {
+  width: 52%;
+}
+
+.dm-app {
+  background: url(../img/linework-background-fixate1.png) no-repeat;
+  background-size: cover;
+  height: 772px;
+  position: relative;
+  padding-top: 5%;
+}
+
+.dm-app .dm-block {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.dm-app .dm-block .dm-flex {
+  display: flex;
+}
+
+.dm-app .dm-block .dm-flex .dm-box {
+  display: block;
+  width: 50%;
+  height: 400px;
+  background: #fff;
+  position: absolute;
+  right: 44%;
+  top: 24%;
+  box-sizing: border-box;
+  padding: 70px;
+  right: 6%;
+}
+
+.dm-app .dm-block .dm-flex .dm-box .dm-text-bold {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.dm-app .dm-block .dm-flex .dm-box .dm-text-normal {
+  padding: 15px 0;
+}
+
+.dm-app .dm-block .dm-flex .dm-box .dm-page-link a {
+  font-size: 15px;
+  border-bottom: solid 1px;
+  padding-bottom: 3px;
+}
+
+.dm-app .dm-block .dm-flex img {
+  width: 52%;
+}
+
+.goOralCare {
+  background: url(../img/linework-background-fixate.png) no-repeat;
+  background-size: cover;
+  height: 772px;
+  position: relative;
+  padding-top: 5%;
+}
+
+.goOralCare .goOralCare-block {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.goOralCare .goOralCare-block .goOralCare-flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.goOralCare .goOralCare-block .goOralCare-flex .goOralCare-box {
+  display: block;
+  width: 50%;
+  height: 400px;
+  background: #fff;
+  position: absolute;
+  right: 44%;
+  top: 24%;
+  box-sizing: border-box;
+  padding: 70px;
+}
+
+.goOralCare .goOralCare-block .goOralCare-flex .goOralCare-box .goOralCare-bold {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.goOralCare .goOralCare-block .goOralCare-flex .goOralCare-box .goOralCare-normal {
+  padding: 15px 0;
+}
+
+.goOralCare .goOralCare-block .goOralCare-flex .goOralCare-box .goOralCare-link a {
+  font-size: 15px;
+  border-bottom: solid 1px;
+  padding-bottom: 3px;
+}
+
+.goOralCare .goOralCare-block .goOralCare-flex img {
+  width: 52%;
+}
+
+.view-more-btn {
+  background: #e3e3e3;
+  height: 200px;
+}
+
+.view-more-btn p {
+  text-align: center;
+  padding: 2%;
+}
+
+.view-more-btn p a {
+  border-radius: 31px;
+  background: #fff;
+  padding: 20px 20px;
+  color: #000;
+  font-size: 13px;
+}
+
+.yellow-contents {
+  background: #F6DF52;
+}
+
+.yellow-contents .yellow-contents-flex {
+  display: block;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.yellow-contents .yellow-contents-flex .research-box {
+  display: block;
+  width: 45%;
+  height: 400px;
+  margin-top: 4%;
+}
+
+.yellow-contents .yellow-contents-flex .research-box .research-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.yellow-contents .yellow-contents-flex .research-box .research-btn {
+  margin-top: 50px;
+}
+
+.yellow-contents .yellow-contents-flex .research-box .research-btn a {
+  border-radius: 31px;
+  background: #fff;
+  padding: 20px 20px;
+  color: #000;
+  font-size: 13px;
+}
+
+.yellow-contents .yellow-contents-flex .design-box {
+  display: block;
+  width: 45%;
+  height: 400px;
+  margin-top: 4%;
+  margin-top: 8%;
+}
+
+.yellow-contents .yellow-contents-flex .design-box .design-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.yellow-contents .yellow-contents-flex .design-box .design-btn {
+  margin-top: 50px;
+}
+
+.yellow-contents .yellow-contents-flex .design-box .design-btn a {
+  border-radius: 31px;
+  background: #fff;
+  padding: 20px 20px;
+  color: #000;
+  font-size: 13px;
+}
+
+.yellow-contents .yellow-contents-flex .development-box {
+  display: block;
+  width: 45%;
+  height: 400px;
+  margin-top: 4%;
+  margin-top: 12%;
+}
+
+.yellow-contents .yellow-contents-flex .development-box .development-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.yellow-contents .yellow-contents-flex .development-box .development-btn {
+  margin-top: 50px;
+}
+
+.yellow-contents .yellow-contents-flex .development-box .development-btn a {
+  border-radius: 31px;
+  background: #fff;
+  padding: 20px 20px;
+  color: #000;
+  font-size: 13px;
+}
+
+.bird-contents {
+  text-align: center;
+  display: block;
+  width: 48%;
+  margin: auto;
+  padding: 10% 0;
+}
+
+.bird-contents .bird-contents-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #777777;
+  padding: 5% 0;
+}
+
+.link-contents {
+  background: url(../img/lighter-grey-fixate.jpg) no-repeat;
+  background-size: cover;
+}
+
+.link-contents .link-contents-flex {
+  display: block;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-contents .link-contents-flex img {
+  width: 13%;
+  backface-visibility: hidden;
+}
+
+footer {
+  background: #150D5A;
+  color: #fff;
+}
+
+footer .footer-flex {
+  display: block;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 0;
+}
+
+footer .footer-flex .footer-one {
+  width: 27%;
+}
+
+footer .footer-flex .footer-one .footer-bold-text {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+footer .footer-flex .footer-one .contact-btn {
+  padding: 40px 0;
+}
+
+footer .footer-flex .footer-one .contact-btn a {
+  border-radius: 31px;
+  background: #fff;
+  padding: 20px 20px;
+  color: #000;
+  font-size: 13px;
+}
+
+footer .footer-flex .footer-one .fa-instagram {
+  padding: 0 15px;
+}
+
+footer .footer-flex .footer-one .fa-dribbble {
+  padding: 0 15px;
+}
+
+footer .footer-flex .footer-two {
+  width: 27%;
+}
+
+footer .footer-flex .footer-two .footer-text {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+footer .footer-flex .footer-two a {
+  border-bottom: solid 1px;
+  padding-bottom: 3px;
+  color: #fff;
+}
+
+footer .footer-flex .footer-three {
+  width: 27%;
+}
+
+footer .footer-flex .footer-three .copy-right {
+  color: #D8D6E3;
+  padding-bottom: 20px;
+}
+/*# sourceMappingURL=style.css.map */
